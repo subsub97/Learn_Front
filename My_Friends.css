@@ -1,0 +1,57 @@
+body {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:100%;
+  max-width: 100%;
+  margin: 0;
+}
+
+}
+h1 {
+  color: powderblue;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.menu {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+
+  width: 100%;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #e2dfdfe4;
+
+
+}
+
+.menu_word {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+  font-family: "Helvetica";
+  color: #58595B;
+  text-decoration: none;
+
+  line-height: 50px;
+  /*vertical-align: middle;*/
+}
+
+.profile{
+  text-align: center;
+  width:100%;
+  height: auto;
+
+}
+#face {
+  /* 이미지를 중앙정렬하기 위해서
+  처음엔 div영역(div width를 300px로 고정두었음...)을 조절하여서 중앙 정렬이 어려웠다
+  사실은 div style이 아닌 img의 스타일을 조정 해주어야 했다. */
+  width: 300px;
+  height: auto;
+
+
+}
