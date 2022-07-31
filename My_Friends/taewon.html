@@ -39,6 +39,34 @@
         Links.setColor('blue');
       }
     }
+    var Body = {
+    setcolor:function(color){
+      // document.querySelector('body').style.color = color;
+      $('body').css('color',color);
+    },
+    setBackgroundColor:function(color){
+      // document.querySelector('body').style.backgroundColor=color;
+      $('body').css('backgroundColor',color);
+    }
+  }
+
+
+  function night_Dayhandler(self){
+
+  if(self.value === 'night'){
+    Body.setBackgroundColor('gray');
+    Body.setcolor('white');
+    self.value = 'day';
+  }
+  else{
+    Body.setBackgroundColor('white');
+    Body.setcolor('black');
+    self.value = 'night';
+  }
+  }
+
+
+
     </script>
 
     <style media="screen">
@@ -66,6 +94,8 @@
     <div class ="profile">
       <img id = "face" src="img/my_Friends/tae.JPG">
     </div>
+
+
 
     <!-- 자동으로 시간대의 따라서 day,night 모드를 전환추가-->
 
